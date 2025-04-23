@@ -24,7 +24,7 @@ export default function Hero() {
           ”.
         </p>
         <button
-          className="text-2xl flex gap-3 items-center"
+          className="text-2xl flex gap-3 items-center cursor-pointer"
           onClick={() => router.push("/about")}
         >
           ABOUT{" "}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { instrumentSans, instrumentSerif } from "./lib/fonts";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Juliana Ortegon Portafolio",
@@ -16,10 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${instrumentSans.variable} ${instrumentSerif.variable} antialiased h-[300svh]`}
+        className={`${instrumentSans.variable} ${instrumentSerif.variable} antialiased`}
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
