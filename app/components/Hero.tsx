@@ -16,15 +16,15 @@ export default function Hero() {
         priority
         className="h-full w-full object-cover absolute inset-0 z-0"
       />
-      <div className="w-[60%] my-5 z-10 flex flex-col gap-10 items-start text-gray-hero">
-        <p className="text-2xl">
+      <div className="w-[60%] my-5 z-10 flex flex-col gap-10 items-start md:items-center text-gray-hero">
+        <p className="text-2xl max-w-[500px] md:text-center">
           “Se habla del <span className="font-serif italic">pensamiento</span>{" "}
           como algo primordial que{" "}
           <span className="font-serif italic">procede a la creación misma</span>
           ”.
         </p>
         <button
-          className="text-2xl flex gap-3 items-center cursor-pointer"
+          className="text-xl flex gap-3 items-center cursor-pointer"
           onClick={() => router.push("/about")}
         >
           ABOUT{" "}
