@@ -15,7 +15,7 @@ export default function Page() {
         <LongArrowLeft className="hidden sm:block" />
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4">
+      <div className="flex flex-col sm:flex-row gap-4 md:gap-0">
         <Image
           src="/images/about-me.png"
           alt="About"
@@ -25,7 +25,7 @@ export default function Page() {
           priority
         />
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 md:p-2">
           <div className="my-5 md:flex items-center gap-5 md:p-2 hidden">
             <ArrowRight className="sm:hidden" />
             <LongArrowRight className="w-1/2" />
