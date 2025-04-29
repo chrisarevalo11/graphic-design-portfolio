@@ -20,7 +20,7 @@ export default function RootLayout({
         className={`${instrumentSans.variable} ${instrumentSerif.variable} antialiased`}
       >
         <Navbar />
-        {children}
+        <main className="grow">{children}</main>
         <Footer />
       </body>
     </html>
