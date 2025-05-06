@@ -31,7 +31,7 @@ export default function Footer() {
           </a>
         </p>
       </div>
-      <div className="font-medium text-white bg-black flex justify-between items-center py-10 px-4">
+      <div className="font-medium text-white bg-black flex justify-evenly items-center py-10 px-4">
         <a href="">Portfolio</a>
         <div className="w-[2px] h-3 bg-white" />
         <a href="">Behance</a>
