@@ -7,37 +7,37 @@ export default function Work() {
                 href="/projects/1"
                 title="Escrito por una dama"
                 description="(Written by a lady)"
-                image="/images/project1.png"
+                image="/images/project-1/cover.png"
             />
             <ProjectCard
                 href="/projects/2"
                 title="Wakamanta:"
                 description="Oráculo express (Express oracle)"
-                image="/images/project2.png"
+                image="/images/project-2/cover.png"
             />
             <ProjectCard
                 href="/projects/3"
                 title="Las cicatrices:"
                 description="Leporello ilustrado (Illustrated leporello)"
-                image="/images/project3.png"
+                image="/images/project-3/cover.png"
             />
             <ProjectCard
                 href="/projects/4"
                 title="Libro en braille"
                 description=""
-                image="/images/project5.png"
+                image="/images/project-6/cover.png"
             />
             <ProjectCard
                 href="/projects/5"
                 title="Ilustración acuarela"
                 description=""
-                image="/images/project5.png"
+                image="/images/project-5/cover.png"
             />
             <ProjectCard
                 href="/projects/6"
                 title="Ilustracíon rapidógrafo"
                 description=""
-                image="/images/project6.png"
+                image="/images/project-6/cover.png"
             />
         </section>
     )
