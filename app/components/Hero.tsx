@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section className="relative !h-[95vh] flex justify-center py-20">
       <Image
-        src="/images/hero.png"
+        src="/images/home/hero.png"
         alt="Hero Image"
         width={1400}
         height={900}
