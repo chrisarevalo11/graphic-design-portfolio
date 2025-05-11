@@ -19,7 +19,7 @@ export default function ProjectCard({
         alt={title}
         width={300}
         height={300}
-        className="w-full"
+        className="w-full aspect-[3/2]"
       />
       <div className="inline-flex gap-1">
         <h3 className="font-bold">{title}</h3>
