@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mt-10 flex flex-col gap-5">
+    <footer className="mt-5 flex flex-col gap-5">
       <div className="mt-5 flex justify-around items-center gap-10 p-2 md:p-6">
         <ArrowRight className="sm:hidden" />
         <LongArrowRight className="hidden sm:block" />
@@ -16,7 +16,7 @@ export default function Footer() {
         <ArrowLeft className="sm:hidden" />
         <LongArrowLeft className="hidden sm:block" />
       </div>
-      <div className="flex gap-2 justify-center items-center">
+      <div className="flex sm:gap-2 justify-center items-center">
         <Image
           src="/images/logo2.png"
           alt="Juliana Ortegón"
