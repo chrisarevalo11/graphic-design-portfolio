@@ -31,14 +31,21 @@ export default function Footer() {
           </a>
         </p>
       </div>
-      <div className="font-medium text-white bg-black flex justify-evenly items-center py-10 px-4">
-        <a href="">Portfolio</a>
+      <div
+        id="footer"
+        className="font-medium text-white bg-black flex justify-evenly items-center py-10 px-4"
+      >
+        <a href="https://www.behance.net/julianaortegn" target="_blank">
+          Behance
+        </a>
         <div className="w-[2px] h-3 bg-white" />
-        <a href="">Behance</a>
+        <a href="https://www.instagram.com/jo.makesense/" target="_blank">
+          Instagram
+        </a>
         <div className="w-[2px] h-3 bg-white" />
-        <a href="">Instagram</a>
-        <div className="w-[2px] h-3 bg-white" />
-        <a href="">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/jo-makesense/" target="_blank">
+          LinkedIn
+        </a>
       </div>
     </footer>
   );

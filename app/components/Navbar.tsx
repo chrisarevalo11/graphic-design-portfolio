@@ -13,7 +13,7 @@ export default function Navbar() {
         />
       </Link>
 
-      <Link href="/" className="uppercase text-sm">
+      <Link href="#footer" className="uppercase text-sm">
         Contact
       </Link>
     </nav>
